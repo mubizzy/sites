@@ -140,7 +140,7 @@ input {
 }
 
 /* ============REUSABLE CSS CLASSES========= */
-.section {
+/* .section {
   padding: 4.5rem 0 2.5rem;
 }
 
@@ -150,7 +150,7 @@ input {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
-}
+} */
 
 .container {
   max-width: 968px;
@@ -168,4 +168,22 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav__logo,
+.nav__toggle {
+  color: var(--white-color);
+}
+
+.nav__logo {
+  font-weight: var(--font-semi-bold);
+}
+
+.nav__toggle {
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.nav__menu {
+  position: relative;
 }
