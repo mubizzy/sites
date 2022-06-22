@@ -223,10 +223,20 @@ input {
   font-weight: var(--font-semi-bold);
   text-transform: uppercase;
 }
-.show-menu {
-  right: 0;
-}
 
 .nav__link:hover {
   color: var(--text-color);
+}
+
+.nav__close {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
+
+.show-menu {
+  right: 0;
 }
