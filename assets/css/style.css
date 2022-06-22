@@ -203,7 +203,7 @@ input {
     position: fixed;
     background-color: var(--body-color);
     top: 0;
-    right: 0;
+    right: -100%;
     width: 70%;
     height: 100%;
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
