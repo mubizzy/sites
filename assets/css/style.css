@@ -170,10 +170,10 @@ input {
   align-items: center;
 }
 
-.nav__logo,
+/* .nav__logo,
 .nav__toggle {
   color: var(--white-color);
-}
+} */
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
@@ -186,4 +186,17 @@ input {
 
 .nav__menu {
   position: relative;
+}
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    background-color: var(--body-color);
+    top: 0;
+    right: 3rem;
+    width: 70%;
+    box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
+    padding: 3rem;
+    transition: 0.4s;
+  }
 }
