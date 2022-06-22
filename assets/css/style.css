@@ -180,10 +180,10 @@ input {
   align-items: center;
 }
 
-/* .nav__logo,
+.nav__logo,
 .nav__toggle {
   color: var(--white-color);
-} */
+}
 
 .nav__logo {
   font-weight: var(--font-semi-bold);
@@ -216,4 +216,17 @@ input {
   display: flex;
   flex-direction: column;
   row-gap: 2.5rem;
+}
+
+.nav__link {
+  color: var(--text-color-light);
+  font-weight: var(--font-semi-bold);
+  text-transform: uppercase;
+}
+.show-menu {
+  right: 0;
+}
+
+.nav__link:hover {
+  color: var(--text-color);
 }
