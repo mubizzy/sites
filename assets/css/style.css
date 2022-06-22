@@ -162,6 +162,16 @@ input {
   display: grid;
   gap: 1.5rem;
 }
+
+/* $$$$$$$$$$$$$$HEADER$$$$$$$$$$$$$$$$$$ */
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-fixed);
+  background-color: var(--first-color);
+}
 /* ============nav============= */
 .nav {
   height: var(--header-height);
@@ -193,10 +203,17 @@ input {
     position: fixed;
     background-color: var(--body-color);
     top: 0;
-    right: 3rem;
+    right: 0;
     width: 70%;
+    height: 100%;
     box-shadow: -1px 0 4px rgba(14, 55, 63, 0.15);
     padding: 3rem;
     transition: 0.4s;
   }
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2.5rem;
 }
