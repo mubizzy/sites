@@ -257,3 +257,16 @@ input {
   align-content: center;
   row-gap: 3rem;
 }
+
+.home__data-subtitle,
+.home__data-title,
+.home__social-link,
+.home__info {
+  color: var(--white-color);
+}
+
+.home__data-subtitle {
+  display: block;
+  font-weight: var(--font-semi-bold);
+  margin-bottom: var(--mb-0-75);
+}
