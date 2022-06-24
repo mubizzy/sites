@@ -312,6 +312,19 @@ input {
 }
 
 .home__info-overlay {
+  overflow: var(--img-hidden);
+}
+
+.home__info-img {
   width: 145px;
   transition: var(--img--transition);
+}
+
+.home__info-img:hover {
+  transform: var(--img-scale);
+}
+
+/* ===========BUTTON=============== */
+.button {
+  display: inline-block;
 }
