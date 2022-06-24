@@ -348,3 +348,7 @@ input {
   background: none;
   padding: 0;
 }
+
+.button--link:hover {
+  background: none;
+}
