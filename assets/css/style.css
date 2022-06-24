@@ -282,3 +282,8 @@ input {
   flex-direction: column;
   row-gap: 1.5rem;
 }
+
+.home__social-link {
+  font-size: 1.2rem;
+  width: max-content;
+}
