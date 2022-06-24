@@ -276,3 +276,9 @@ input {
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
 }
+
+.home__social {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
