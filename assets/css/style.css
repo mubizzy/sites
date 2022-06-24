@@ -343,3 +343,8 @@ input {
   align-items: center;
   column-gap: 0.25rem;
 }
+
+.button--link {
+  background: none;
+  padding: 0;
+}
