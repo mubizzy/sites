@@ -362,3 +362,12 @@ input {
 .button--link:hover {
   background: none;
 }
+
+/* ===============ABOUT================== */
+.about__data {
+  text-align: center;
+}
+
+.about__container {
+  row-gap: 2.5rem;
+}
