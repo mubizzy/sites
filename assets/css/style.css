@@ -245,6 +245,11 @@ input {
   background-color: var(--body-color);
   box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
+
+.scroll-header .nav__logo,
+.scroll-header .nav__toggle {
+  color: var(--title-color);
+}
 /* ==============Home============= */
 .home__img {
   position: absolute;
