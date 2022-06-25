@@ -390,3 +390,17 @@ input {
 .about__img-one {
   width: 130px;
 }
+
+.about__img-two {
+  width: 180px;
+}
+
+.about__img-one,
+.about__img-two {
+  transition: var(--img--transition);
+}
+
+.about__img-one:hover,
+.about__img-two:hover {
+  transform: var(--img-scale);
+}
