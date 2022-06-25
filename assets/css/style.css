@@ -144,13 +144,13 @@ input {
   padding: 4.5rem 0 2.5rem;
 }
 
-/* .section__title {
+.section__title {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
-}  */
+}
 
 .container {
   max-width: 968px;
@@ -239,6 +239,11 @@ input {
 
 .show-menu {
   right: 0;
+}
+
+.scroll-header {
+  background-color: var(--body-color);
+  box-shadow: 0 0 4px rgba(14, 55, 63, 0.15);
 }
 /* ==============Home============= */
 .home__img {
