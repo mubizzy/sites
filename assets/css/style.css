@@ -140,17 +140,17 @@ input {
 }
 
 /* ============REUSABLE CSS CLASSES========= */
-/* .section {
+.section {
   padding: 4.5rem 0 2.5rem;
 }
 
-.section__title {
+/* .section__title {
   font-size: var(--h2-font-size);
   color: var(--title-color);
   text-align: center;
   text-transform: capitalize;
   margin-bottom: var(--mb-2);
-} */
+}  */
 
 .container {
   max-width: 968px;
