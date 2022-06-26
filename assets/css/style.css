@@ -404,3 +404,10 @@ input {
 .about__img-two:hover {
   transform: var(--img-scale);
 }
+
+/* ==============DISCOVER====================== */
+.disover__card {
+  position: relative;
+  width: 200px;
+  overflow: var(--img-hidden);
+}
