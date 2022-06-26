@@ -45,6 +45,6 @@ let swiper = new Swiper(".discover__container", {
   loop: true,
   spaceBetween: 32,
   coverflowEffect: {
-    rotate: 50,
+    rotate: 0,
   },
 });
