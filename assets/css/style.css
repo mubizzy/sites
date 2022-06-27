@@ -452,3 +452,9 @@ input {
   justify-content: center;
   justify-items: center;
 }
+
+.experience__content {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1rem;
+  padding: 0 2rem;
+}
