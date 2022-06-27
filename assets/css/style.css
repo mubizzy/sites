@@ -473,3 +473,12 @@ input {
   position: relative;
   padding-bottom: 2rem;
 }
+
+.experience__img-one,
+.experience__img-two {
+  transition: var(--img--transition);
+}
+.experience__img-one:hover,
+.experience__img-two:hover {
+  transform: var(--img-scale);
+}
