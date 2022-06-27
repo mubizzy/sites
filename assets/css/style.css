@@ -482,3 +482,12 @@ input {
 .experience__img-two:hover {
   transform: var(--img-scale);
 }
+
+.experience__overlay {
+  overflow: hidden;
+}
+
+.experience__overlay:nth-child(1) {
+  width: 263px;
+  margin-right: 2rem;
+}
