@@ -503,3 +503,8 @@ input {
   top: 2rem;
   right: 0;
 }
+
+/* ============EXPERIENCE=============== */
+.video__container {
+  padding-bottom: 1rem;
+}
