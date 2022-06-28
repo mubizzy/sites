@@ -408,7 +408,7 @@ input {
 /* ==============DISCOVER====================== */
 .discover__card {
   position: relative;
-  width: 200px;
+
   overflow: var(--img-hidden);
 }
 
@@ -435,10 +435,14 @@ input {
 
 .discover__img {
   transition: var(--img--transition);
+  width: 200px;
 }
 
 .discover__img:hover {
   transform: var(--img-scale);
+}
+
+.discover__container {
 }
 
 .swiper-container-3d .swiper-slide-shadow-left,
@@ -457,6 +461,7 @@ input {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 1rem;
   padding: 0 2rem;
+  justify-content: center;
 }
 
 .experience__number {
@@ -484,7 +489,7 @@ input {
 }
 
 .experience__overlay {
-  overflow: hidden;
+  overflow: var(--img-hidden);
 }
 
 .experience__overlay:nth-child(1) {
