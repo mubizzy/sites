@@ -540,6 +540,11 @@ input {
   justify-content: center;
 }
 
+.place__card {
+  position: relative;
+  overflow: hidden;
+}
+
 .place__card:hover,
 .place__img {
   transform: var(--img-scale);
