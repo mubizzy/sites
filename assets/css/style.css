@@ -539,3 +539,8 @@ input {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
 }
+
+.place__card:hover,
+.place__img {
+  transform: var(--img-scale);
+}
