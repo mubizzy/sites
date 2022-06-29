@@ -549,3 +549,7 @@ input {
 .place__img {
   transform: var(--img-scale);
 }
+
+.place__img {
+  transition: var(--img--transition);
+}
