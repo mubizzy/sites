@@ -534,3 +534,8 @@ input {
 .place__img {
   height: 230px;
 }
+
+.place__container {
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+}
