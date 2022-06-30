@@ -532,10 +532,10 @@ input {
   height: 230px;
 }
 
-/* .place__container {
+.place__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
-} */
+}
 
 /* .place__card {
   position: relative;
