@@ -442,9 +442,6 @@ input {
   transform: var(--img-scale);
 }
 
-.discover__container {
-}
-
 .swiper-container-3d .swiper-slide-shadow-left,
 .swiper-container-3d .swiper-slide-shadow-right {
   background-image: none;
@@ -530,22 +527,22 @@ input {
 }
 
 /*========= PLACES============== */
-.place__card,
+/* .place__card,
 .place__img {
   height: 230px;
-}
+} */
 
-.place__container {
+/* .place__container {
   grid-template-columns: repeat(2, max-content);
   justify-content: center;
-}
+} */
 
-.place__card {
+/* .place__card {
   position: relative;
   overflow: hidden;
-}
+} */
 
-.place__card:hover,
+/* .place__card:hover,
 .place__img {
   transform: var(--img-scale);
 }
@@ -557,4 +554,4 @@ input {
 .place__content,
 .place__title {
   color: var(--white-color);
-}
+} */
