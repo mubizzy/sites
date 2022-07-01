@@ -573,3 +573,8 @@ input {
   display: flex;
   align-items: center;
 }
+
+.place__rating-icon {
+  font-size: 0.75rem;
+  margin-right: var(--mb-0-25);
+}
