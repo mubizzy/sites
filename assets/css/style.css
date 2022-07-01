@@ -578,6 +578,12 @@ input {
   font-size: 0.75rem;
   margin-right: var(--mb-0-25);
 }
+
 .place__rating-number {
   font-size: var(--small-font-size);
+}
+
+.place__subtitle,
+.place__price {
+  display: block;
 }
