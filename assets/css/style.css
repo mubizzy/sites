@@ -542,8 +542,7 @@ input {
   overflow: var(--img-hidden);
 }
 
-.place__card:hover,
-.place__img {
+.place__card:hover .place__img {
   transform: var(--img-scale);
 }
 
@@ -596,4 +595,9 @@ input {
 .place__subtitle {
   font-size: var(--smaller-font-size);
   margin-bottom: var(--mb-1-25);
+}
+
+.home__social-link {
+  font-size: 1.2rem;
+  width: max-content;
 }
