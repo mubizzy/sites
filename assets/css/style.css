@@ -547,11 +547,11 @@ input {
   transform: var(--img-scale);
 }
 
-/* .place__img {
+ .place__img {
   transition: var(--img--transition);
 }
 
-.place__content,
-.place__title {
-  color: var(--white-color);
-} */ */
+/* .place__content, */
+/* .place__title { */
+  /* color: var(--white-color); */
+/* } */ */ */
