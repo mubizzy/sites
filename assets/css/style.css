@@ -539,11 +539,11 @@ input {
 
 .place__card {
   position: relative;
-  overflow: hidden;
+  overflow: var(--img-hidden);
 }
 
 .place__card:hover,
-.plasce__img {
+.place__img {
   transform: var(--img-scale);
 }
 
@@ -586,4 +586,14 @@ input {
 .place__subtitle,
 .place__price {
   display: block;
+}
+
+.place__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-25);
+}
+
+.place__subtitle {
+  font-size: var(--smaller-font-size);
+  margin-bottom: var(--mb-1-25);
 }
