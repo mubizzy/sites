@@ -597,7 +597,9 @@ input {
   margin-bottom: var(--mb-1-25);
 }
 
-.home__social-link {
-  font-size: 1.2rem;
-  width: max-content;
+.place__button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 1rem;
 }
