@@ -609,3 +609,8 @@ input {
   background-color: var(--first-color-second);
   padding: 2.5rem 0;
 }
+
+.subscribe__title,
+.section__description {
+  color: var(--white-color);
+}
