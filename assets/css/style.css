@@ -611,6 +611,6 @@ input {
 }
 
 .subscribe__title,
-.section__description {
+.subscribe__description {
   color: var(--white-color);
 }
