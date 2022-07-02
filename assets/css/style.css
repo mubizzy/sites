@@ -603,3 +603,9 @@ input {
   bottom: 0;
   padding: 0.75rem 1rem;
 }
+
+/* ================ SUBSCRIBE=================== */
+.subscribe__bg {
+  background-color: var(--first-color-second);
+  padding: 2.5rem 0;
+}
