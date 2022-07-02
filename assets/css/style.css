@@ -614,3 +614,8 @@ input {
 .subscribe__description {
   color: var(--white-color);
 }
+
+.subscribe__description {
+  text-align: center;
+  margin-bottom: var(--mb-2-5);
+}
