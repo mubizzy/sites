@@ -641,4 +641,5 @@ input {
 .sponsor__container {
   grid-template-columns: repeat(autofit, minmax(110px, 1fr));
   justify-items: center;
+  row-gap: 3.5rem;
 }
