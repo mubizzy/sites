@@ -637,3 +637,8 @@ input {
 .subscribe__input::placeholder {
   color: var(--text-color);
 }
+
+.sponsor__container {
+  grid-template-columns: repeat(autofit, minmax(110px, 1fr));
+  justify-items: center;
+}
