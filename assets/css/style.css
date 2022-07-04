@@ -170,7 +170,7 @@ input {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: var(--first-color);
+  background-color: transparent;
 }
 /* ============nav============= */
 .nav {
