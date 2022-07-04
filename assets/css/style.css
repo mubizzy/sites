@@ -667,3 +667,11 @@ input {
 .footer__subtitle {
   font-size: var(--h3-font-size);
 }
+
+.footer__title {
+  margin-bottom: var(--mb-0-25);
+}
+
+.footer__description {
+  margin-bottom: var(--mb-2);
+}
