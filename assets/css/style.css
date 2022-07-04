@@ -704,3 +704,9 @@ input {
   row-gap: 1.5rem;
   text-align: center;
 }
+
+.footer__copy,
+.footer__terms-link {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light);
+}
