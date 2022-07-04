@@ -675,3 +675,7 @@ input {
 .footer__description {
   margin-bottom: var(--mb-2);
 }
+
+.footer__subtitle {
+  margin-bottom: var(--mb-1);
+}
