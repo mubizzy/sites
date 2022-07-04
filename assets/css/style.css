@@ -689,3 +689,11 @@ input {
 .footer__link {
   color: var(--text-color);
 }
+
+.footer__item {
+  margin-bottom: var(--mb-0-75);
+}
+
+.footer__link:hover {
+  colol: var(--title-color);
+}
