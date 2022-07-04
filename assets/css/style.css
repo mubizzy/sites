@@ -657,3 +657,7 @@ input {
 .footer__container {
   row-gap: 5rem;
 }
+
+.footer__content {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
