@@ -732,3 +732,8 @@ input {
   z-index: var(--z-tooltip);
   transition: 0.4s;
 }
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: var(--scroll-bar-color);
+}
