@@ -710,3 +710,9 @@ input {
   font-size: var(--small-font-size);
   color: var(--text-color-light);
 }
+
+.footer__terms {
+  display: flex;
+  column-gap: 1.5rem;
+  justify-content: center;
+}
