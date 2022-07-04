@@ -669,7 +669,7 @@ input {
 }
 
 .footer__title {
-  margin-bottom: var(--mb-0-25);
+  margin-bottom: var(--mb-0-5);
 }
 
 .footer__description {
@@ -678,4 +678,10 @@ input {
 
 .footer__subtitle {
   margin-bottom: var(--mb-1);
+}
+
+.footer__social {
+  font-size: 1.25rem;
+  color: var(--title-color);
+  margin-right: var(--mb-1-25);
 }
