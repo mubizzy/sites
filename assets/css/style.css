@@ -5,7 +5,7 @@
   --header-height: 3rem;
 
   /* ========COLORS======== */
-  --hue-color: 190;
+  --hue-color: 171;
 
   --first-color: hsl(var(--hue-color), 64%, 22%);
 
@@ -746,6 +746,7 @@ input {
   opacity: 0.9;
   z-index: var(--z-tooltip);
   transition: 0.4s;
+  border-radius: 50%;
 }
 
 .scrollup:hover {
@@ -755,7 +756,7 @@ input {
 
 .scrollup__icon {
   color: var(--white-color);
-  font-size: 1.2rem;
+  font-size: 2.3rem;
 }
 
 .show-scroll {
