@@ -746,7 +746,7 @@ input {
   opacity: 0.9;
   z-index: var(--z-tooltip);
   transition: 0.4s;
-  border-radius: 50%;
+  border-radius: 37%;
 }
 
 .scrollup:hover {
@@ -781,5 +781,13 @@ input {
   .place__container {
     grid-template-columns: max-content;
     justify-content: center;
+  }
+
+  .experience__content {
+    padding: 0;
+  }
+
+  .experience__overlay:nth-child(1) {
+    width: 190px;
   }
 }
