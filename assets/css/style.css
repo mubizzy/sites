@@ -775,3 +775,11 @@ input {
 ::-webkit-scrollbar-thumb:hover {
   background-color: var(--text-color-light);
 }
+
+/* ==================MEDIA QUERIES=================== */
+@media screen and (max-width: 340px) {
+  .place__container {
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+}
