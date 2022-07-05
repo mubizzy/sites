@@ -790,4 +790,15 @@ input {
   .experience__overlay:nth-child(1) {
     width: 190px;
   }
+  .experience__overlay:nth-child(2) {
+    width: 80px;
+  }
+  .home__info {
+    width: 190px;
+    padding: 1rem;
+  }
+  .experience__img,
+  .video__container {
+    padding: 0;
+  }
 }
