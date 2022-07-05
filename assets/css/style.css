@@ -833,4 +833,8 @@ input {
 .nav__link:hover {
   color: var(--white-color);
 }
+.nav__menu {
+  display: flex;
+  column-gap: 1rem;
+}
 
