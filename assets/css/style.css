@@ -812,4 +812,9 @@ input {
   .place__container {
     grid-template-columns: repeat(3, max-content);
   }
+
+  .subscribe__form {
+    width: 470px;
+    margin: 0 auto;
+  }
 }
