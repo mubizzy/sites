@@ -38,17 +38,17 @@ function scrollHeader() {
 window.addEventListener("scroll", scrollHeader);
 
 /*==================== SWIPER DISCOVER ====================*/
-let swiper = new Swiper(".discover__container", {
-  effect: "coverflow",
-  grabCursor: true,
-  centeredSlides: true,
-  slidesPerView: "auto",
-  loop: true,
-  spaceBetween: 10,
-  coverflowEffect: {
-    rotate: 10,
-  },
-});
+// let swiper = new Swiper(".discover__container", {
+//   effect: "coverflow",
+//   grabCursor: true,
+//   centeredSlides: true,
+//   slidesPerView: "auto",
+//   loop: true,
+//   spaceBetween: 10,
+//   coverflowEffect: {
+//     rotate: 10,
+//   },
+// });
 
 /*==================== VIDEO ====================*/
 const videoFile = document.getElementById("video-file"),
