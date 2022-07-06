@@ -139,6 +139,15 @@ input {
   overflow-x: hidden;
 }
 
+/*========== Button Dark/Light ==========*/
+.nav__dark {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  position: absolute;
+  left: 3rem;
+  bottom: 4rem;
+}
 /* ============REUSABLE CSS CLASSES========= */
 .section {
   padding: 4.5rem 0 2.5rem;
