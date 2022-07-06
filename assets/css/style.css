@@ -921,4 +921,8 @@ input {
   .experience__overlay:nth-child(2) {
     width: 160px;
   }
+  .subscribe__bg {
+    background: none;
+    padding: 0;
+  }
 }
