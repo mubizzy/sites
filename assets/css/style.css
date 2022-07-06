@@ -918,4 +918,7 @@ input {
     width: 363px;
     margin-right: 4rem;
   }
+  .experience__overlay:nth-child(2) {
+    width: 160px;
+  }
 }
