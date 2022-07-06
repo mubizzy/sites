@@ -914,4 +914,8 @@ input {
   .place__container {
     padding-top: 3rem;
   }
+  .experience__overlay:nth-child(1) {
+    width: 363px;
+    margin-right: 4rem;
+  }
 }
