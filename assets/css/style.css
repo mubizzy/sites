@@ -148,6 +148,11 @@ input {
   left: 3rem;
   bottom: 4rem;
 }
+
+.change-theme,
+.change-theme-name {
+  color: var(--text-color);
+}
 /* ============REUSABLE CSS CLASSES========= */
 .section {
   padding: 4.5rem 0 2.5rem;
