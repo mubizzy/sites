@@ -974,4 +974,16 @@ input {
   .home__info-img {
     width: 240px;
   }
+  .about__img-one {
+    width: 230px;
+  }
+  .about__img-two {
+    width: 290px;
+  }
+  .discover__card {
+    width: 237px;
+  }
+  .discover__container {
+    width: 700px;
+  }
 }
