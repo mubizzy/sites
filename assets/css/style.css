@@ -967,4 +967,11 @@ input {
     grid-template-columns: 1fr 2fr;
     column-gap: 2rem;
   }
+
+  .home__info-title {
+    font-size: var(--normal-font-size);
+  }
+  .home__info-img {
+    width: 240px;
+  }
 }
