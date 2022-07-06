@@ -961,4 +961,10 @@ input {
   .home__container {
     grid-template-rows: 2fr 0.5fr;
   }
+
+  .home__info {
+    width: 328px;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 2rem;
+  }
 }
