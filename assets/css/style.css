@@ -457,10 +457,10 @@ input {
   margin-bottom: var(--mb-0-25);
 } */
 
-.discover__description {
+/* .discover__description {
   display: block;
   font-size: var(--smaller-font-size);
-}
+} */
 
 /* .discover__img {
   transition: var(--img--transition);
