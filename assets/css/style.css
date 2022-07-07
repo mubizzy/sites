@@ -463,10 +463,10 @@ input {
   font-size: var(--smaller-font-size);
 }
 
-.discover__img {
+/* .discover__img {
   transition: var(--img--transition);
   width: 200px;
-}
+} */
 
 .discover__img:hover {
   transform: var(--img-scale);
