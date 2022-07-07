@@ -399,6 +399,7 @@ input {
 
 .about__container {
   row-gap: 2.5rem;
+  /* order: 1; */
 }
 
 .about__description {
@@ -1004,5 +1005,38 @@ input {
   .experience__overlay:nth-child(2) {
     width: 220px;
     top: 3rem;
+  }
+  .video__container {
+    grid-template-columns: 0.7fr;
+  }
+  .video__description {
+    padding: 0 8rem;
+  }
+  .place__container {
+    gap: 3rem 2rem;
+  }
+  .place__card,
+  .place__img {
+    height: 263px;
+  }
+  .footer__content {
+    justify-items: center;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+/* For tall screens on mobiles y desktop*/
+@media screen and (min-height: 721px) {
+  body {
+    margin: 0;
+  }
+  .home__container,
+  .home__img {
+    height: 640px;
   }
 }
