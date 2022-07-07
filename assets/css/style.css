@@ -452,10 +452,10 @@ input {
   color: var(--white-color);
 } */
 
-.discover__title {
+/* .discover__title {
   font-size: var(--h3-font-size);
   margin-bottom: var(--mb-0-25);
-}
+} */
 
 .discover__description {
   display: block;
