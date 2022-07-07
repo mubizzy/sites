@@ -436,11 +436,10 @@ input {
 }
 
 /* ==============DISCOVER====================== */
-.discover__card {
+/* .discover__card {
   position: relative;
-
   overflow: var(--img-hidden);
-}
+} */
 
 .discover__data {
   position: absolute;
