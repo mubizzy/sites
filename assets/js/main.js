@@ -154,3 +154,8 @@ const sr = ScrollReveal({
   duration: 2800,
   // reset: true,
 });
+
+sr.reveal(`.home__data`, {
+  origin: "top",
+  interval: 100,
+});
