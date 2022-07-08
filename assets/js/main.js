@@ -155,7 +155,7 @@ const sr = ScrollReveal({
   // reset: true,
 });
 
-sr.reveal(`.home__data,.home__social-link`, {
+sr.reveal(`.home__data, .home__social-link, .home__info`, {
   origin: "top",
   interval: 100,
 });
