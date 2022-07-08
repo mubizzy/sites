@@ -163,3 +163,8 @@ sr.reveal(`.home__data, .home__social-link, .home__info, .experience__data`, {
 sr.reveal(`.about__data, .video__description, .subscribe__description`, {
   origin: "left",
 });
+
+sr.reveal(`.about__img-overlay,.video__content`, {
+  origin: "right",
+  interval: 100,
+});
