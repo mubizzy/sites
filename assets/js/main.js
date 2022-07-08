@@ -159,3 +159,7 @@ sr.reveal(`.home__data, .home__social-link, .home__info, .experience__data`, {
   origin: "top",
   interval: 100,
 });
+
+sr.reveal(`.about__data, .video__description, .subscribe__description`, {
+  origin: "left",
+});
